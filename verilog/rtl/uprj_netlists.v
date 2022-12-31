@@ -21,8 +21,20 @@
     // Assume default net type to be wire because GL netlists don't have the wire definitions
     `default_nettype wire
     `include "gl/user_project_wrapper.v"
-    `include "gl/user_proj_example.v"
+    `include "gl/sha3.v"
+    `include "gl/absorb.v"
+    `include "gl/controller.v"
+    `include "gl/keccak_f.v"
+    `include "gl/memory.v"
+    `include "gl/theta_rho_pi_chi_iota.v"
+    `include "gl/x_o.v"
 `else
     `include "user_project_wrapper.v"
-    `include "user_proj_example.v"
+    `include "sha3.v"
+    `include "absorb.v"
+    `include "controller.v"
+    `include "keccak_f.v"
+    `include "memory.v"
+    `include "theta_rho_pi_chi_iota.v"
+    `include "x_o.v"
 `endif

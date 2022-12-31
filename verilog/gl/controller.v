@@ -188,9 +188,9 @@ module controller#(
     end
     
     
-    RAM #(
+    memory #(
         .BITS(BITS)
-    ) ram(
+    ) mem(
         .clk(clk),
         .rst(ram_rst),
         .read_e(ram_read_e),

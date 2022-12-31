@@ -1,7 +1,7 @@
 {
     "DESIGN_NAME": "sha3",
     "DESIGN_IS_CORE": 0,
-    "VERILOG_FILES": ["dir::../../verilog/rtl/defines.v", "dir::../../verilog/rtl/sha3.v", "dir::../../verilog/rtl/absorb.v", "dir::../../verilog/rtl/controller.v", "dir::../../verilog/rtl/RAM.v", "dir::../../verilog/rtl/theta_rho_pi_chi_iota.v","dir::../../verilog/rtl/x_o.v","dir::../../verilog/rtl/keccak_f.v"],
+    "VERILOG_FILES": ["dir::../../verilog/rtl/defines.v", "dir::../../verilog/rtl/sha3.v", "dir::../../verilog/rtl/absorb.v", "dir::../../verilog/rtl/controller.v", "dir::../../verilog/rtl/memory.v", "dir::../../verilog/rtl/theta_rho_pi_chi_iota.v","dir::../../verilog/rtl/x_o.v","dir::../../verilog/rtl/keccak_f.v"],
     "CLOCK_PERIOD": 10,
     "CLOCK_PORT": "wb_clk_i",
     "CLOCK_NET": "counter.clk",

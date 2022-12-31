@@ -59,7 +59,7 @@ module controller#(
             ram_rst <= 0;
             
             
-            if (valid && !ready) begin //This goes to RAM
+            if (valid && !ready) begin //This goes to Memory
                 if(!ram_ready)
                     begin
                         ready <= 1'b1;
@@ -188,9 +188,9 @@ module controller#(
     end
     
     
-    RAM #(
+    memory #(
         .BITS(BITS)
-    ) ram(
+    ) mem(
         .clk(clk),
         .rst(ram_rst),
         .read_e(ram_read_e),
