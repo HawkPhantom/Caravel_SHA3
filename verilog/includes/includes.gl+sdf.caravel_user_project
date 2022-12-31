@@ -1,0 +1,9 @@
+// Caravel user project includes		
+$USER_PROJECT_VERILOG/gl/user_project_wrapper.v	     
+$USER_PROJECT_VERILOG/gl/absorb.v	
+$USER_PROJECT_VERILOG/gl/controller.v
+$USER_PROJECT_VERILOG/gl/RAM.v
+$USER_PROJECT_VERILOG/gl/theta_rho_pi_chi_iota.v
+$USER_PROJECT_VERILOG/gl/sha3.v
+$USER_PROJECT_VERILOG/gl/x_o.v
+$USER_PROJECT_VERILOG/gl/keccak_f.v
