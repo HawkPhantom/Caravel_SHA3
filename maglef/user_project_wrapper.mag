@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1672507494
+timestamp 1672509966
 << obsli1 >>
 rect 236104 340159 413848 455521
 << obsm1 >>
@@ -3792,7 +3792,7 @@ string FIXED_BBOX 0 0 584000 704000
 string LEFclass BLOCK
 string LEFview TRUE
 string GDS_END 9119872
-string GDS_FILE /home/hawkphantom/Desktop/caravel_user_project/openlane/user_project_wrapper/runs/22_12_31_20_23/results/signoff/user_project_wrapper.magic.gds
+string GDS_FILE /home/hawkphantom/Desktop/caravel_user_project/openlane/user_project_wrapper/runs/22_12_31_21_04/results/signoff/user_project_wrapper.magic.gds
 string GDS_START 7293052
 << end >>
 
